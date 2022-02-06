@@ -134,7 +134,6 @@ body {
 }
 
 .sejarah p {
-    text-align: justify;
     font-size: 22px;
 }
 
@@ -161,12 +160,12 @@ body {
 }
 
 .card p {
-    text-align: justify;
+    text-align: start;
     font-size: 20px;
 }
 
 .card .misi li {
-    text-align: justify;
+    text-align: start;
     font-size: 20px;
 }
 
@@ -176,7 +175,7 @@ body {
 }
 
 .jasa ul li {
-    text-align: justify;
+    text-align: start;
     font-size: 22px;
 }
 
