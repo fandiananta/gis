@@ -1,0 +1,54 @@
+        @media only screen and (max-width: 600px) {
+            .navbar-brand img {
+                width: 50px;
+            }
+            .jumbotron {
+                height: 600px;
+            }
+            .jumbotron h1 {
+                font-size: 40px;
+            }
+            .jumbotron p {
+                font-size: 30px;
+            }
+            .button {
+                width: 70%;
+                justify-content: space-between;
+            }
+            .call-me,
+            .about-me {
+                height: 40px;
+                font-size: 16px;
+            }
+            .wave img {
+                top: 550px;
+            }
+            .burger {
+                cursor: pointer;
+                display: block;
+            }
+            .nav-item .nav-link {
+                text-align: center;
+            }
+            .visi-misi .card {
+                margin-top: 40px;
+            }
+        }
+        
+        @media only screen and (max-width: 376px) {
+            .button {
+                width: 100%;
+                justify-content: space-between;
+            }
+            .call-me,
+            .about-me {
+                height: 35px;
+                font-size: 13px;
+            }
+        }
+        
+        @media (min-width: 992px) {
+            .burger {
+                display: none;
+            }
+        }

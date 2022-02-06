@@ -1,0 +1,208 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 7000px;
+}
+
+
+/* burger */
+
+.burger {
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #1A237E;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.toggle .line1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+
+.toggle .line3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+/* burger */
+
+
+/* logo */
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.nav-item {
+    padding-right: 50px;
+}
+
+.jumbotron {
+    background-image: url(assets/bg.png);
+    background-attachment: fixed;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.jumbotron-cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 86, 107, 59%);
+}
+
+.wave img {
+    top: 600px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.display-4 {
+    font-weight: bold;
+    margin-top: 130px;
+    color: white;
+    text-align: center;
+}
+
+.title-jasa {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.button {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.button .call-me {
+    border-radius: 150px;
+    background-color: #FF8025;
+    color: white;
+}
+
+.button .about-me {
+    border-radius: 150px;
+    border: 3px solid #FF8025;
+    color: white;
+}
+
+.bekerja-sama {
+    margin-top: -50px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    width: 100%;
+    z-index: 99;
+    /* position: absolute; */
+}
+
+.bekerja-sama img {
+    width: 100px;
+}
+
+.sejarah {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+.sejarah img {
+    width: 100%;
+}
+
+.sejarah h2 {
+    font-size: 45px;
+}
+
+.sejarah p {
+    text-align: justify;
+    font-size: 22px;
+}
+
+.visi-misi {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 100px;
+    background-color: #F2F6FB;
+}
+
+.visi-misi .card {
+    padding-top: 40px;
+    border: none;
+    height: 600px;
+}
+
+.visi-misi img {
+    width: 200px;
+}
+
+.card {
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.card p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card .misi li {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.jasa {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.jasa ul li {
+    text-align: justify;
+    font-size: 22px;
+}
+
+.jasa .card {
+    background-color: #F2F6FB;
+    border: none;
+    padding: 30px;
+    height: 250pxs;
+}
+
+.produk {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: 400px;
+    background-image: url(assets/bg-profuk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.produk span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 86, 107, 50%);
+}
